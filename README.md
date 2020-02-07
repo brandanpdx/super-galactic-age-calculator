@@ -17,24 +17,24 @@ This application will also determine how many years the user has left to live on
 | Convert  age from Earth years to Venus years (1 Venus year = 0.62 Earth years) | 20 Earth years   | 32.2 Venus years   	|
 | Convert age from Earth years to Mars years (1 Mars year = 1.88 Earth years) | 20 Earth years     | 10.6 Mars years  	|
 | Convert  age from Earth years to Jupiter years (1 Jupiter year = 11.86 Earth years) | 20 Earth years    |  1.6 Jupiter years  	|
-|***Determine Life Expectancy*** |
-| Determine average life expectancy on Earth for U.S. Citizen  | 20 Earth years   |  80 Earth years 	|
-| Determine average life expectancy on Mercury for U.S. Citizen  | 20 Earth years   | 143.3 expected Mercury years  	|
-| Determine average life expectancy on Venus for U.S. Citizen  | 20 Earth years   |   92.2 expected Venus years  	|
-| Determine average life expectancy on Mars for U.S. Citizen  | 20 Earth years  | 70.6 expected Mars years  	|
-| Determine average life expectancy on Jupiter for U.S. Citizen  | 20 Earth years  | 61.6 expected Jupiter years  	|
-| ***Determine Remaining Life Expectancy*** |
-| Determine remaining life expectancy on Earth  | 60 Earth years   | 20 Earth years remaining life expectancy 	|
-| Determine remaining life expectancy on Mercury  | 60 Earth years   | 83.3 Mercury years remaining life expectancy 	|
-| Determine remaining life expectancy on Venus  | 60 Earth years   | 32.2 Venus years remaining life expectancy 	|
-| Determine remaining life expectancy on Mars  | 60 Earth years   | 10.6 Mars years remaining life expectancy 	|
-| Determine remaining life expectancy on Jupiter | 60 Earth years   | 1.6 Jupiter years remaining life expectancy 	|
-| ***Determine Years Surpassed Life Expectancy*** |
-| Determine surpassed life expectancy on Earth  | 100 Earth years   | 20 Earth years surpassed life expectancy 	|
-| Determine surpassed life expectancy on Mercury  | 100 Earth years   | Mercury years surpassed life expectancy 	|
-| Determine surpassed life expectancy on Venus  | 100 Earth years   |  Venus years surpassed life expectancy 	|
-| Determine surpassed life expectancy on Mars  | 100 Earth years   |  Mars years surpassed life expectancy 	|
-| Determine surpassed life expectancy on Jupiter | 100 Earth years   |  Jupiter years surpassed life expectancy 	|
+|***Determine life expectancy...*** |
+| ...on Earth for U.S. Citizen  | 20 Earth years   |  80 Earth years 	|
+| ...on Mercury for U.S. Citizen  | 20 Earth years   | 143.3 expected Mercury years  	|
+| ...on Venus for U.S. Citizen  | 20 Earth years   |   92.2 expected Venus years  	|
+| ...on Mars for U.S. Citizen  | 20 Earth years  | 70.6 expected Mars years  	|
+| ...on Jupiter for U.S. Citizen  | 20 Earth years  | 61.6 expected Jupiter years  	|
+| ***Determine remaining life expectancy...*** |
+| ...on Earth  | 60 Earth years   | 20 Earth years remaining life expectancy 	|
+| ...on Mercury  | 60 Earth years   | 83.3 Mercury years remaining life expectancy 	|
+| ...on Venus  | 60 Earth years   | 32.2 Venus years remaining life expectancy 	|
+| ...on Mars  | 60 Earth years   | 10.6 Mars years remaining life expectancy 	|
+| ...on Jupiter | 60 Earth years   | 1.6 Jupiter years remaining life expectancy 	|
+| ***Determine years surpassed life expectancy...*** |
+| ...on Earth  | 100 Earth years   | 20 Earth years surpassed life expectancy 	|
+| ...on Mercury  | 100 Earth years   | Mercury years surpassed life expectancy 	|
+| ...on Venus  | 100 Earth years   |  Venus years surpassed life expectancy 	|
+| ...on Mars  | 100 Earth years   |  Mars years surpassed life expectancy 	|
+| ...on Jupiter | 100 Earth years   |  Jupiter years surpassed life expectancy 	|
 
 
 
