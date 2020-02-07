@@ -12,11 +12,11 @@ This application will also determine how many years the user has left to live on
 
 | Specification             | Input 	|     Output      |
 |-------------------------	|-------	|----------------	|
-| ***Convert Age*** |
-| Convert age from Earth years to Mercury years (1 Mercury year = 0.24 Earth years) | 20 Earth years    | 83.3 Mercury years  	|
-| Convert  age from Earth years to Venus years (1 Venus year = 0.62 Earth years) | 20 Earth years   | 32.2 Venus years   	|
-| Convert age from Earth years to Mars years (1 Mars year = 1.88 Earth years) | 20 Earth years     | 10.6 Mars years  	|
-| Convert  age from Earth years to Jupiter years (1 Jupiter year = 11.86 Earth years) | 20 Earth years    |  1.6 Jupiter years  	|
+| ***Convert age from Earth years...*** |
+| ...to Mercury years (1 Mercury year = 0.24 Earth years) | 20 Earth years    | 83.3 Mercury years  	|
+| ...to Venus years (1 Venus year = 0.62 Earth years) | 20 Earth years   | 32.2 Venus years   	|
+| ...to Mars years (1 Mars year = 1.88 Earth years) | 20 Earth years     | 10.6 Mars years  	|
+| ...to Jupiter years (1 Jupiter year = 11.86 Earth years) | 20 Earth years    |  1.6 Jupiter years  	|
 |***Determine life expectancy...*** |
 | ...on Earth for U.S. Citizen  | 20 Earth years   |  80 Earth years 	|
 | ...on Mercury for U.S. Citizen  | 20 Earth years   | 143.3 expected Mercury years  	|
