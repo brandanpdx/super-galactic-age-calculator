@@ -25,5 +25,11 @@ describe('ageCalc', () => {
     let marsAge = parseFloat((userAge.age / userAge.mars).toFixed(1));
     expect(marsAge).toEqual(10.6);
   })
+
+  test("should determine age on Jupiter when age on Earth is 20 years old", () => {
+    let jupiterAge = parseFloat((userAge.age / userAge.jupiter).toFixed(1));
+    expect(jupiterAge).toEqual(1.6);
+  })
+
 })
 
