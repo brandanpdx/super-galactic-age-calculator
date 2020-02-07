@@ -12,13 +12,13 @@ describe('ageCalc', () => {
   })
 
   test("should determine age on Mercury when age on Earth is 20 years old", () => {
-    let mercuryAge = parseFloat((userAge.age / userAge.mercury).toFixed(2));
-    expect(mercuryAge).toEqual(83.33);
+    let mercuryAge = parseFloat((userAge.age / userAge.mercury).toFixed(1));
+    expect(mercuryAge).toEqual(83.3);
   })
 
   test("should determine age on Venus when age on Earth is 20 years old", () => {
-    let venusAge = parseFloat((userAge.age / userAge.venus).toFixed(2));
-    expect(venusAge).toEqual(32.22);
+    let venusAge = parseFloat((userAge.age / userAge.venus).toFixed(1));
+    expect(venusAge).toEqual(32.3);
   })
 })
 
