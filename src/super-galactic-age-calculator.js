@@ -17,6 +17,8 @@ export class ageCalc {
 
   lifeExpectancy() {
     this.mercuryExpectancy = parseFloat((this.earthLifeExpectancy / this.mercury).toFixed(1));
+    this.venusExpectancy = parseFloat((this.earthLifeExpectancy / this.venus).toFixed(1));
+
   }
 
 
