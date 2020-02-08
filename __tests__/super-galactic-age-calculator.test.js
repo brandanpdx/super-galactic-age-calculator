@@ -46,10 +46,10 @@ describe('ageCalc', () => {
     expect(userAge.marsExpectancy).toEqual(42.6);
     })
 
-    test("should determine life expectancy on Jupiter, assuming an 80 year life expectancy on Earth", () => { 
-      userAge.lifeExpectancy();
-      expect(userAge.jupiterExpectancy).toEqual(6.8);
-      })
+  test("should determine life expectancy on Jupiter, assuming an 80 year life expectancy on Earth", () => { 
+    userAge.lifeExpectancy();
+    expect(userAge.jupiterExpectancy).toEqual(6.7);
+    })
   
 })
 
