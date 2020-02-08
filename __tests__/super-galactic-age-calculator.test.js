@@ -40,6 +40,11 @@ describe('ageCalc', () => {
     userAge.lifeExpectancy();
     expect(userAge.venusExpectancy).toEqual(129);
     })
+
+  test("should determine life expectancy on Mars, assuming an 80 year life expectancy on Earth", () => { 
+    userAge.lifeExpectancy();
+    expect(userAge.marsExpectancy).toEqual(42.5);
+    })
   
 })
 
