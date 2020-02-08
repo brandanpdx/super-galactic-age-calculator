@@ -33,11 +33,11 @@ describe('ageCalc', () => {
 
   test("should determine life expectancy on Mercury, assuming an 80 year life expectancy on Earth", () => { 
   userAge.lifeExpectancy();
-  expect(userAge.mercuryExpectancy).toEqual(333.33);
+  expect(userAge.mercuryExpectancy).toEqual(333.3);
   })
   
 
 
-  
+
 })
 
