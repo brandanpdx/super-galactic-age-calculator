@@ -30,8 +30,14 @@ describe('ageCalc', () => {
     userAge.ageOnPlanets();
     expect(userAge.jupiterAge).toEqual(1.7);
   }) 
+
+  test("should determine life expectancy on Mercury, assuming an 80 year life expectancy on Earth", () => { 
+  userAge.lifeExpectancy();
+  expect(userAge.mercuryExpectancy).toEqual(333.33);
+  })
   
 
 
+  
 })
 
