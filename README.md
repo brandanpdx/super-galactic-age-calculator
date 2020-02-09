@@ -63,9 +63,9 @@ Please visit the [Node.js website](https://nodejs.org/en/download/) for installa
 Clone this repository via Terminal using the following commands:
 * ```$ cd desktop```
 * ```$ git clone https://github.com/brandanpdx/super-galactic-age-calculator```
-* ```$ cd solar-age```
+* ```$ cd super-galactic-age-calculator```
 
-Then, confirm that you have navigated to the solar-age project directory by entering ```pwd``` in Terminal.
+Then, confirm that you have navigated to the super-galactic-age-calculator project directory by entering ```pwd``` in Terminal.
 
 Next, install npm at the project's root directory via the following commands:
 * ```$ npm install```
