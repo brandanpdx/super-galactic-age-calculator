@@ -8,6 +8,8 @@ This is the Epicodus independent end-of-week assignment for Friday, February 7, 
 
 This application will also determine how many years the user has left to live on each planet, depending on the user's average life expectancy for their demographic.  If the user has already surpassed their average life expectancy, the program will return the number of years they have lived past their life expectancy. 
 
+This project does not have a user interface.
+
 ## Behavior Driven Development Specifications
 
 | Specification             | Input 	|     Output      |
