@@ -105,7 +105,7 @@ describe('ageCalc', () => {
     expect(userBeyondAge.marsSurpassed).toEqual(10.6);
     })
 
-  test("should determine how many years a person has lived past their life expectancy on Mars", () => {
+  test("should determine how many years a person has lived past their life expectancy on Jupiter", () => {
     userBeyondAge.lifeSurpassed();
     expect(userBeyondAge.jupiterSurpassed).toEqual(1.7);
     })

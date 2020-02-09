@@ -36,6 +36,7 @@ export class ageCalc {
       this.mercurySurpassed = parseFloat(((this.age - this.earthLifeExpectancy) / this.mercury).toFixed(1));
       this.venusSurpassed = parseFloat(((this.age - this.earthLifeExpectancy) / this.venus).toFixed(1));
       this.marsSurpassed = parseFloat(((this.age - this.earthLifeExpectancy) / this.mars).toFixed(1));
+      this.jupiterSurpassed = parseFloat(((this.age - this.earthLifeExpectancy) / this.jupiter).toFixed(1));
       
     }
 
