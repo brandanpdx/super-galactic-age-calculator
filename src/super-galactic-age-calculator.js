@@ -27,6 +27,7 @@ export class ageCalc {
     this.mercuryRemaining = parseInt(this.earthRemaining / this.mercury);
     this.venusRemaining = parseFloat((this.earthRemaining / this.venus).toFixed(1));
     this.marsRemaining = parseFloat((this.earthRemaining / this.mars).toFixed(1));
+    this.jupiterRemaining = parseFloat((this.earthRemaining / this.jupiter).toFixed(1));
   }
 
   
