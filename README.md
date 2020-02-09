@@ -37,27 +37,44 @@ This application will also determine how many years the user has left to live on
 | ...on Jupiter | 100 Earth years   | 1.69 Jupiter years surpassed expectancy 	|
 
 
-
-
-                             	
-
 ## Setup/Installation Requirements
 
-*_To view the entirety of this project, do the following:_*
+#### Node install
 
-1. Open your terminal  
-2. Navigate to your desktop using terminal
-3. Copy the following code into your terminal:
+###### For macOS:
+If Homebrew is not installed on your computer already, then install Homebrew by entering the following two commands in Terminal:
+* $ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+* $ echo 'export PATH=/usr/local/bin:$PATH' >> ~/.bash_profile
 
-```$ git clone https://github.com/brandanpdx/super-galactic-age-calculator```
+Install Git with the following command:
+* $ brew install git
 
-This will create a clone of the project directory onto your desktop, and you will be able to navigate the entire project using your Windows Explorer or Mac Finder.  You may open any of the files using the text editor of your choice.
+Next, install Node.js by entering the following command in Terminal:
+* $ brew install node
+
+###### For Windows:
+_Please visit the [Node.js website](https://nodejs.org/en/download/) for installation instructions._
+
+
+#### Install this application
+
+Clone this repository via Terminal using the following commands:
+* _$ cd desktop_
+* $ git clone https://github.com/brandanpdx/super-galactic-age-calculator
+* _$ cd solar-age_
+Then, confirm that you have navigated to the solar-age project directory by entering "pwd" in Terminal.
+
+Next, install npm at the project's root directory via the following commands:
+* _$ npm install_
+* _$ npm run build_
+
+Open the contents of the directory in a text editor or IDE of your choice (e.g., to open the contents of the directory in Visual Studio Code on macOS, enter the command "code ." in Terminal).
 
 
 
 ## Support and Contact
 
-_Please email Brandan Sayarath: brandan@brandan.tech for any questions._
+Please email Brandan Sayarath: brandan@brandan.tech for any questions.
 
 ## Technologies Used
 
