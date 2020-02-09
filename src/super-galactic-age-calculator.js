@@ -32,6 +32,7 @@ export class ageCalc {
 
   lifeSurpassed() {
     if (this.age > this.earthLifeExpectancy) {
+      this.earthSurpassed = parseInt(this.age - this.earthLifeExpectancy);
       
     }
 
