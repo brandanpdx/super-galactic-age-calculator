@@ -2,7 +2,6 @@ import { ageCalc } from ".././src/super-galactic-age-calculator.js";
 
 describe('ageCalc', () => {
   let userAge;
-  let earthLifeExpectancy;
 
   beforeEach(() => {
     userAge = new ageCalc(20, 80);
@@ -76,4 +75,19 @@ describe('ageCalc', () => {
     userAge.lifeRemaining();
     expect(userAge.jupiterRemaining).toEqual(5.1);
     })
+
 })
+
+describe('ageCalc', () => {
+  let userBeyondAge;
+
+  beforeEach(() => {
+    userBeyondAge = new ageCalc(100, 80);
+  });
+
+  test("should determine how many years a person has lived past their life expectancy on Earth", () => {
+    userBeyondAge.lifeSurpassed();
+    expect(userBeyondAge.earthSurpassed).toEqual(20);
+    })
+
+  })
