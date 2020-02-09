@@ -6,7 +6,6 @@ export class ageCalc {
     this.mars = 1.88;
     this.jupiter = 11.86;
     this.earthLifeExpectancy = 80;
-    this.earthYearsRemaining = (this.earthLifeExpectancy - this.age)
   }
 
   ageOnPlanets() {
@@ -24,7 +23,8 @@ export class ageCalc {
   }
 
   remainingLifespan() {
-    this.mercuryRemaining = parseFloat(this.earthYearsRemaining / this.mercuryAge);
+    this.earthRemaining = parseInt(this.earthLifeExpectancy - this.age);
+    this.mercuryRemaining = parseInt(this.earthRemaining / this.mercury);
   }
 
   

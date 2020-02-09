@@ -14,7 +14,6 @@ describe('ageCalc', () => {
   test("should determine age on Mercury when age on Earth is 20 years old", () => {
     userAge.ageOnPlanets();
     expect(userAge.mercuryAge).toEqual(83.3);
-    console.log(userAge.mercuryAge);
   })
 
   test("should determine age on Venus when age on Earth is 20 years old", () => {
@@ -33,9 +32,8 @@ describe('ageCalc', () => {
   }) 
 
   test("should determine life expectancy on Mercury, assuming an 80 year life expectancy on Earth", () => { 
-  userAge.lifeExpectancy();
-  expect(userAge.mercuryExpectancy).toEqual(333.3);
-  console.log(userAge.mercuryExpectancy);
+    userAge.lifeExpectancy();
+    expect(userAge.mercuryExpectancy).toEqual(333.3);
   })
 
   test("should determine life expectancy on Venus, assuming an 80 year life expectancy on Earth", () => { 
@@ -53,10 +51,17 @@ describe('ageCalc', () => {
     expect(userAge.jupiterExpectancy).toEqual(6.7);
     })
 
+  test("should determine remaining life expectancy on Earth, when Earth age is 20 years old", () => {
+    userAge.remainingLifespan();
+    expect(userAge.earthRemaining).toEqual(60);
+    console.log(userAge.earthRemaining);
+    })
+
   test("should determine remaining life expectancy on Mercury, when age on Earth is 20 years old", () => {
     userAge.remainingLifespan();
     expect(userAge.mercuryRemaining).toEqual(250);
     })
+
 })
 
 
