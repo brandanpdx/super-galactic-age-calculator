@@ -70,7 +70,11 @@ describe('ageCalc', () => {
     userAge.remainingLifespan();
     expect(userAge.marsRemaining).toEqual(31.9);
     })
-
+    
+  test("should determine remaining life expectancy on Jupiter, when age on Earth is 20 years old", () => {
+    userAge.remainingLifespan();
+    expect(userAge.jupiterRemaining).toEqual(5.1);
+    })
     
 
 })
