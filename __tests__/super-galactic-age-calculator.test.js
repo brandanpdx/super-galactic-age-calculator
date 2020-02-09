@@ -54,7 +54,6 @@ describe('ageCalc', () => {
   test("should determine remaining life expectancy on Earth, when Earth age is 20 years old", () => {
     userAge.remainingLifespan();
     expect(userAge.earthRemaining).toEqual(60);
-    console.log(userAge.earthRemaining);
     })
 
   test("should determine remaining life expectancy on Mercury, when age on Earth is 20 years old", () => {
@@ -64,7 +63,7 @@ describe('ageCalc', () => {
 
   test("should determine remaining life expectancy on Venus, when age on Earth is 20 years old", () => {
     userAge.remainingLifespan();
-    expect(userAge.venusRemaining).toEqual(97);
+    expect(userAge.venusRemaining).toEqual(96.8);
     })
 
 })

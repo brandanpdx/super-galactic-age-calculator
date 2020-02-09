@@ -25,6 +25,7 @@ export class ageCalc {
   remainingLifespan() {
     this.earthRemaining = parseInt(this.earthLifeExpectancy - this.age);
     this.mercuryRemaining = parseInt(this.earthRemaining / this.mercury);
+    this.venusRemaining = parseFloat((this.earthRemaining / this.venus).toFixed(1));
   }
 
   
