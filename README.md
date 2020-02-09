@@ -45,32 +45,33 @@ This project does not have a user interface.
 
 ###### For macOS:
 If Homebrew is not installed on your computer already, then install Homebrew by entering the following two commands in Terminal:
-* $ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-* $ echo 'export PATH=/usr/local/bin:$PATH' >> ~/.bash_profile
+* ```$ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"```
+* ```$ echo 'export PATH=/usr/local/bin:$PATH' >> ~/.bash_profile```
 
 Install Git with the following command:
-* $ brew install git
+* ```$ brew install git```
 
 Next, install Node.js by entering the following command in Terminal:
-* $ brew install node
+* ```$ brew install node```
 
 ###### For Windows:
-_Please visit the [Node.js website](https://nodejs.org/en/download/) for installation instructions._
+Please visit the [Node.js website](https://nodejs.org/en/download/) for installation instructions.
 
 
 #### Install this application
 
 Clone this repository via Terminal using the following commands:
-* _$ cd desktop_
-* $ git clone https://github.com/brandanpdx/super-galactic-age-calculator
-* _$ cd solar-age_
-Then, confirm that you have navigated to the solar-age project directory by entering "pwd" in Terminal.
+* ```$ cd desktop```
+* ```$ git clone https://github.com/brandanpdx/super-galactic-age-calculator```
+* ```$ cd solar-age```
+
+Then, confirm that you have navigated to the solar-age project directory by entering ```pwd``` in Terminal.
 
 Next, install npm at the project's root directory via the following commands:
-* _$ npm install_
-* _$ npm run build_
+* ```$ npm install```
+* ```$ npm run build```
 
-Open the contents of the directory in a text editor or IDE of your choice (e.g., to open the contents of the directory in Visual Studio Code on macOS, enter the command "code ." in Terminal).
+Open the contents of the directory in a text editor or IDE of your choice (e.g., to open the contents of the directory in Visual Studio Code on macOS, enter the command ```code .``` in Terminal).
 
 
 
@@ -80,7 +81,7 @@ Please email Brandan Sayarath: brandan@brandan.tech for any questions.
 
 ## Technologies Used
 
-_This program was created with:_
+This program was created with:
 
 * Javascript
 * Node Package Manager
