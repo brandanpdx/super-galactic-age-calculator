@@ -2,9 +2,10 @@ import { ageCalc } from ".././src/super-galactic-age-calculator.js";
 
 describe('ageCalc', () => {
   let userAge;
+  let earthLifeExpectancy;
 
   beforeEach(() => {
-    userAge = new ageCalc(20);
+    userAge = new ageCalc(20, 80);
   });
 
   test("should determine if ageCalc object is instantiated correctly with user inputted age", () => {
@@ -52,31 +53,27 @@ describe('ageCalc', () => {
     })
 
   test("should determine remaining life expectancy on Earth, when Earth age is 20 years old", () => {
-    userAge.remainingLifespan();
+    userAge.lifeRemaining();
     expect(userAge.earthRemaining).toEqual(60);
     })
 
   test("should determine remaining life expectancy on Mercury, when age on Earth is 20 years old", () => {
-    userAge.remainingLifespan();
+    userAge.lifeRemaining();
     expect(userAge.mercuryRemaining).toEqual(250);
     })
 
   test("should determine remaining life expectancy on Venus, when age on Earth is 20 years old", () => {
-    userAge.remainingLifespan();
+    userAge.lifeRemaining();
     expect(userAge.venusRemaining).toEqual(96.8);
     })
 
   test("should determine remaining life expectancy on Mars, when age on Earth is 20 years old", () => {
-    userAge.remainingLifespan();
+    userAge.lifeRemaining();
     expect(userAge.marsRemaining).toEqual(31.9);
     })
     
   test("should determine remaining life expectancy on Jupiter, when age on Earth is 20 years old", () => {
-    userAge.remainingLifespan();
+    userAge.lifeRemaining();
     expect(userAge.jupiterRemaining).toEqual(5.1);
     })
-    
-
 })
-
-
